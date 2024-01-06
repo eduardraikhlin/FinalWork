@@ -53,4 +53,8 @@ Let's start doing FinalWork!
 Для того чтобы установить любой пакет из этого репозитория применим команду **apt-get**:    
 **$ sudo apt-get install mysql-server**
 
-4. 
+4. Чтобы установить и удалить deb-пакет с помощью **dpkg** применим команды:   
+**sudo dpkg -i package.deb** - установка deb-пакета    
+**sudo dpkg -r package.deb** - удаление deb-пакета
+
+5. 
